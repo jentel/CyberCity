@@ -3,7 +3,7 @@
 2. Launch GameMaker
 3. In the dashboard, choose "Open"
 4. Browse to your newly cloned folder
-5. Select *Capstone.yyp*
+5. Select *CyberCity.yyp*
 
 The project is in GML Code. Here's a link for more information https://manual.gamemaker.io/monthly/en/GameMaker_Language/GML_Overview/GML_Overview.htm
 

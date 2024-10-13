@@ -32,8 +32,13 @@ if (vx == 0 && vy == 0) {
 
 // if moving
 if (vx != 0 || vy != 0) {
-	x += vx;
-	y += vy;
+	if (!collision_point(x + vx, y, obj_par_environment, true, true)) {
+		x += vx;
+	}
+	
+	if (!collision_point(x, y + vy, obj_par_environment, true, true)) {
+		y += vy;
+	}
 	
 	// change walking sprites based on direction
 	if (vx > 0) {
@@ -52,7 +57,27 @@ if (vx != 0 || vy != 0) {
 		sprite_index = spr_player_walk_up;
 		dir = 1;
 	}
+	
+	// move audio listener with me
+	audio_listener_set_position(0, x, y, 0);
 }
 
+// check for collision with NPCs
+nearbyNPC = collision_rectangle(x - lookRange, y - lookRange, 
+								x + lookRange, y + lookRange, obj_par_npc, false, true);
+
+if (nearbyNPC) {
+	// play greeting sound
+	if (!hasGreeted) {
+		audio_play_sound(snd_greeting01, 1, 0);
+		hasGreeted = true;
+	}
+	show_debug_message("player has found npc");
+}
+else {
+	// reset greeting
+	hasGreeted ^= hasGreeted;
+	show_debug_message("player has NOT found anything");
+}
 // depth sorting
 depth =- y

@@ -2,11 +2,18 @@
 // Will run this code 60 times per second
 
 // Check keys for movement
-moveRight = keyboard_check(vk_right)
-moveLeft = keyboard_check(vk_left)
-moveUp = keyboard_check(vk_up)
-moveDown = keyboard_check(vk_down)
-
+if (global.playerControl) {
+	moveRight = keyboard_check(vk_right)
+	moveLeft = keyboard_check(vk_left)
+	moveUp = keyboard_check(vk_up)
+	moveDown = keyboard_check(vk_down)
+}
+else {
+	moveRight = 0;
+	moveLeft = 0;
+	moveUp = 0;
+	moveDown = 0;
+}
 // calculate movement
 vx = ((moveRight - moveLeft) * walkSpeed);
 vy = ((moveDown - moveUp) * walkSpeed);
@@ -65,18 +72,25 @@ if (vx != 0 || vy != 0) {
 // check for collision with NPCs
 nearbyNPC = collision_rectangle(x - lookRange, y - lookRange, 
 								x + lookRange, y + lookRange, obj_par_npc, false, true);
-
 if (nearbyNPC) {
 	// play greeting sound
 	if (!hasGreeted) {
 		audio_play_sound(snd_greeting01, 1, 0);
 		hasGreeted = true;
 	}
+	
+	// prop up prompt
+	if (npcPrompt == noone || npcPrompt == undefined) {
+		npcPrompt = scr_showPrompt(nearbyNPC, nearbyNPC.x, nearbyNPC.y - 450);
+	}
 	show_debug_message("player has found npc");
 }
 else {
 	// reset greeting
 	hasGreeted ^= hasGreeted;
+	
+	// get rid of prompt
+	scr_dismissPrompt(npcPrompt, 0);
 	show_debug_message("player has NOT found anything");
 }
 // depth sorting

@@ -8,23 +8,31 @@ function scr_itemPosition(){
 				_x = obj_player.x+65;
 				_y = obj_player.y-112;
 				_depth = obj_player.depth-2;
-				}; break;
+			} 
+			break;
+			
 			case 1: { // up
 				_x = obj_player.x;
 				_y = obj_player.y-95;
 				_depth = obj_player.depth+2;
-				}; break;
+			} 
+			break;
+			
 			case 2: { // left
 				_x = obj_player.x-65;
 				_y = obj_player.y-112;
 				_depth = obj_player.depth-2;
-				}; break;
+			} 
+			break;
+			
 			case 3: { // down
 				_x = obj_player.x;
 				_y = obj_player.y-95;
 				_depth = obj_player.depth-2;
-				}; break;
-			}
+			} 
+			break;
+		
+		}
 		return [_x,_y,_depth];
 	}
 				

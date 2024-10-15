@@ -19,7 +19,7 @@ else {
 running = keyboard_check(vk_shift);
 
 // Speed up if runing
-if (running == true) {
+if (running) {
 	// Ramp up
 	if (runSpeed < runMax) {
 		runSpeed +=2;
@@ -31,7 +31,7 @@ if (running == true) {
 	}
 }
 // Slow down if no longer running
-if (running == false) {
+if (!running) {
 	if (runSpeed > 0) {
 		runSpeed -=1;
 	}
@@ -121,19 +121,18 @@ else {
 }
 
 // Check for collision with Items
-nearbyItem = collision_rectangle(x - lookRange, y - lookRange, 
-								x + lookRange, y + lookRange, obj_par_item, false, true);
+nearbyItem = collision_rectangle(x - lookRange, y - lookRange, x + lookRange, y + lookRange, obj_par_item, false, true);
 if (nearbyItem && !nearbyNPC) {
 	// pop up prompt
 	if (itemPrompt == noone || itemPrompt == undefined) {
 		show_debug_message("obj_player has found an item!");
 		itemPrompt = scr_showPrompt(nearbyItem,nearbyItem.x,nearbyItem.y - 300);
-		}
 	}
+}
 if (!nearbyItem || nearbyNPC) {
 	// Get rid of prompt
 	scr_dismissPrompt(itemPrompt,1);
-	}
+}
 	
 // If picking up an item
 if (myState == playerState.pickingUp) {
@@ -151,8 +150,8 @@ if (myState == playerState.puttingDown) {
 	if (image_index >= image_number-1) {
 		myState = playerState.idle;
 		global.playerControl = true;
-		}
 	}
+}
 
 // Depth sorting
 depth = -y;

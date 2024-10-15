@@ -5,7 +5,8 @@ switch myState {
 	// If item is sitting on the ground
 	case itemState.idle: {
 		depth =-y;
-	}; break;
+	} 
+	break;
 	// If item has been taken
 	case itemState.taken: {
 		// Keep track of player position
@@ -13,11 +14,13 @@ switch myState {
 		x = _result[0];
 		y = _result[1];
 		depth = _result[2];
-	}; break;
+	} 
+	break;
 	// If item is being put back
 	case itemState.puttingBack: {
 		y = putDownY;
 		myState = itemState.idle;
-	}; break;
+	} 
+	break;
 }
 

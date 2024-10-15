@@ -38,7 +38,7 @@ if (global.playerControl) {
 		if (hasItem != noone) {
 			myState = playerState.puttingDown;
 			image_index = 0;
-			!global.playerControl;
+			global.playerControl = false;
 			// Change state of item we were carrying
 			with (hasItem) {
 				putDownY = obj_player.y+5;

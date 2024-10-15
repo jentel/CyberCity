@@ -23,4 +23,3 @@ switch myState {
 	} 
 	break;
 }
-

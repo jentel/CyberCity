@@ -11,14 +11,14 @@ if (global.playerControl) {
 			if (!instance_exists(obj_textbox)) {
 				iii = instance_create_depth(nearbyNPC.x,nearbyNPC.y-400,-10000,obj_textbox);
 				iii.textToShow = _text;
+				}
 			}
 		}
-	}
 	// If near an item
 	if (nearbyItem && !nearbyNPC) {
 		// If player doesn't have an item
 		if (hasItem == noone || hasItem == undefined) {
-			!global.playerControl;
+			global.playerControl = false;
 			myState = playerState.pickingUp;
 			image_index = 0;
 			hasItem = nearbyItem;
@@ -27,7 +27,7 @@ if (global.playerControl) {
 			// Change state of item we're picking up
 			with (hasItem) {
 				myState = itemState.taken;
-				}
+			}
 			// Play pickup sound
 			audio_play_sound(snd_itemPickup,1,0);
 		}

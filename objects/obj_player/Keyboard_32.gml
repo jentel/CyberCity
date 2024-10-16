@@ -7,7 +7,7 @@ if (global.playerControl) {
 	if (nearbyNPC) {
 		// If player does not have an item
 		if (hasItem == noone || hasItem == undefined) {
-			_text = nearbyNPC.myText;
+			_text = nearbyNPC.npc_text;
 			if (!instance_exists(obj_textbox)) {
 				iii = instance_create_depth(nearbyNPC.x,nearbyNPC.y-400,-10000,obj_textbox);
 				iii.textToShow = _text;

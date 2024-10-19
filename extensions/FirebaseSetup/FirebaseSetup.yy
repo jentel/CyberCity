@@ -57,8 +57,8 @@
   "optionsFile":"options.json",
   "packageId":"",
   "parent":{
-    "name":"Cyber City",
-    "path":"Cyber City.yyp",
+    "name":"Extensions",
+    "path":"folders/Extensions.yy",
   },
   "productId":"",
   "resourceType":"GMExtension",

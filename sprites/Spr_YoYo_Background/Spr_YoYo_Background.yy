@@ -27,7 +27,7 @@
   "origin":0,
   "parent":{
     "name":"Sprites",
-    "path":"folders/YoYo Extensions Assets/Sprites.yy",
+    "path":"folders/Extensions/YoYo Extensions Assets/Sprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

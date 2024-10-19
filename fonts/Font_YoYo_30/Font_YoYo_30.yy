@@ -240,7 +240,7 @@
   "name":"Font_YoYo_30",
   "parent":{
     "name":"Font",
-    "path":"folders/YoYo Extensions Assets/Font.yy",
+    "path":"folders/Extensions/YoYo Extensions Assets/Font.yy",
   },
   "pointRounding":0,
   "ranges":[

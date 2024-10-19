@@ -11,7 +11,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
-    "path":"folders/YoYo Extensions Assets/Objects.yy",
+    "path":"folders/Extensions/YoYo Extensions Assets/Objects.yy",
   },
   "parentObjectId":{
     "name":"Obj_YoYo_button",

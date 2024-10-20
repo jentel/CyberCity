@@ -3,6 +3,9 @@
 // Game (Global) variables
 global.playerControl = true;
 
+global.gameOver = false;
+global.gameStart = false;
+
 // Player States
 enum playerState {
 	idle,
@@ -33,3 +36,9 @@ enum seqState {
 sequenceState = seqState.notPlaying;
 curSeqLayer = noone;
 curSeq = noone;
+
+// NPC states
+enum npcState {
+	normal,
+	done,
+}

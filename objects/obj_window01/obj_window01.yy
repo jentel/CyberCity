@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"window01",
+    "path":"sprites/window01/window01.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

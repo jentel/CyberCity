@@ -229,6 +229,7 @@
     {"id":{"name":"cabinet02","path":"sprites/cabinet02/cabinet02.yy",},},
     {"id":{"name":"carpet","path":"sprites/carpet/carpet.yy",},},
     {"id":{"name":"chair","path":"sprites/chair/chair.yy",},},
+    {"id":{"name":"computer_border","path":"sprites/computer_border/computer_border.yy",},},
     {"id":{"name":"computer_desk","path":"sprites/computer_desk/computer_desk.yy",},},
     {"id":{"name":"computer_screen","path":"sprites/computer_screen/computer_screen.yy",},},
     {"id":{"name":"computer","path":"sprites/computer/computer.yy",},},

@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_kitchen_counter",
+  "%Name":"obj_wall_horizontal",
   "eventList":[],
   "managed":true,
-  "name":"obj_kitchen_counter",
+  "name":"obj_wall_horizontal",
   "overriddenProperties":[],
   "parent":{
     "name":"Environment",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"kitchen_counter",
-    "path":"sprites/kitchen_counter/kitchen_counter.yy",
+    "name":"wall_horizontal",
+    "path":"sprites/wall_horizontal/wall_horizontal.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -1,11 +1,11 @@
 {
   "$GMSprite":"",
-  "%Name":"kitchen_counter",
+  "%Name":"kitchen_counter_vertical",
   "bboxMode":2,
   "bbox_bottom":652,
-  "bbox_left":-217,
+  "bbox_left":-218,
   "bbox_right":1198,
-  "bbox_top":-73,
+  "bbox_top":-41,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
@@ -21,7 +21,7 @@
   "layers":[
     {"$GMImageLayer":"","%Name":"0677ffe9-a824-4e54-98f6-aae7c93c8699","blendMode":0,"displayName":"default","isLocked":false,"name":"0677ffe9-a824-4e54-98f6-aae7c93c8699","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"kitchen_counter",
+  "name":"kitchen_counter_vertical",
   "nineSlice":null,
   "origin":7,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"",
-    "%Name":"kitchen_counter",
+    "%Name":"kitchen_counter_vertical",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"kitchen_counter",
+    "name":"kitchen_counter_vertical",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,7 +69,7 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2baa6ef8-0ed6-401e-9723-230d3d6e81c8","path":"sprites/kitchen_counter/kitchen_counter.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2baa6ef8-0ed6-401e-9723-230d3d6e81c8","path":"sprites/kitchen_counter_vertical/kitchen_counter_vertical.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"d6c34199-34ef-4f3f-bd2d-6179de51cb84","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],

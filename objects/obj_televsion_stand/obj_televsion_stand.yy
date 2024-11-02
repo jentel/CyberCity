@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"obj_televsion_stand",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_televsion_stand",
   "overriddenProperties":[],
@@ -9,7 +11,10 @@
     "name":"Environment",
     "path":"folders/Objects/Environment.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_par_environment",
+    "path":"objects/obj_par_environment/obj_par_environment.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

@@ -1,6 +1,6 @@
 {
   "$GMSprite":"",
-  "%Name":"Npc_OldWoman_Walking_Backward",
+  "%Name":"spr_oldWoman_walk_up",
   "bboxMode":0,
   "bbox_bottom":69,
   "bbox_left":0,
@@ -24,19 +24,19 @@
   "layers":[
     {"$GMImageLayer":"","%Name":"84d68583-5716-44a6-b8b9-806f036f3113","blendMode":0,"displayName":"default","isLocked":false,"name":"84d68583-5716-44a6-b8b9-806f036f3113","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"Npc_OldWoman_Walking_Backward",
+  "name":"spr_oldWoman_walk_up",
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"Old_Woman",
-    "path":"folders/Sprites/NPCs/Old_Woman.yy",
+    "name":"oldWoman",
+    "path":"folders/Sprites/Player/oldWoman.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"",
-    "%Name":"Npc_OldWoman_Walking_Backward",
+    "%Name":"spr_oldWoman_walk_up",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -60,7 +60,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"Npc_OldWoman_Walking_Backward",
+    "name":"spr_oldWoman_walk_up",
     "playback":1,
     "playbackSpeed":10.0,
     "playbackSpeedType":0,
@@ -72,16 +72,16 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"53a58445-a585-4d25-aa8e-81ad835e76fa","path":"sprites/Npc_OldWoman_Walking_Backward/Npc_OldWoman_Walking_Backward.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"53a58445-a585-4d25-aa8e-81ad835e76fa","path":"sprites/spr_oldWoman_walk_up/spr_oldWoman_walk_up.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"fe837da9-83f7-4d20-976f-081cda0a3324","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e57796ef-54d9-4688-b515-f95af580f2c4","path":"sprites/Npc_OldWoman_Walking_Backward/Npc_OldWoman_Walking_Backward.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e57796ef-54d9-4688-b515-f95af580f2c4","path":"sprites/spr_oldWoman_walk_up/spr_oldWoman_walk_up.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"97d19c75-cb29-4859-b628-cbbed64b8933","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"cbbcf945-f3c4-4236-957d-eed4e0586d4b","path":"sprites/Npc_OldWoman_Walking_Backward/Npc_OldWoman_Walking_Backward.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"cbbcf945-f3c4-4236-957d-eed4e0586d4b","path":"sprites/spr_oldWoman_walk_up/spr_oldWoman_walk_up.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"73a39e05-ad2c-4a16-b5c5-1a04a4851a5f","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"518aba60-b555-4589-99c2-2f6a4ce2b830","path":"sprites/Npc_OldWoman_Walking_Backward/Npc_OldWoman_Walking_Backward.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"518aba60-b555-4589-99c2-2f6a4ce2b830","path":"sprites/spr_oldWoman_walk_up/spr_oldWoman_walk_up.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"c93babf7-a0d5-41d3-a706-310f1d88405e","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],

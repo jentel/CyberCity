@@ -1,6 +1,6 @@
 {
   "$GMSprite":"",
-  "%Name":"Npc_OldWoman_Idle_Left",
+  "%Name":"spr_oldWoman_idle_left",
   "bboxMode":0,
   "bbox_bottom":68,
   "bbox_left":1,
@@ -24,19 +24,19 @@
   "layers":[
     {"$GMImageLayer":"","%Name":"eefefb44-8033-481b-949b-b680ed824cc1","blendMode":0,"displayName":"default","isLocked":false,"name":"eefefb44-8033-481b-949b-b680ed824cc1","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"Npc_OldWoman_Idle_Left",
+  "name":"spr_oldWoman_idle_left",
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"Old_Woman",
-    "path":"folders/Sprites/NPCs/Old_Woman.yy",
+    "name":"oldWoman",
+    "path":"folders/Sprites/Player/oldWoman.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"",
-    "%Name":"Npc_OldWoman_Idle_Left",
+    "%Name":"spr_oldWoman_idle_left",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -60,7 +60,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"Npc_OldWoman_Idle_Left",
+    "name":"spr_oldWoman_idle_left",
     "playback":1,
     "playbackSpeed":10.0,
     "playbackSpeedType":0,
@@ -72,16 +72,16 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"859ddeab-24bf-4fa7-9b5d-a3541135b100","path":"sprites/Npc_OldWoman_Idle_Left/Npc_OldWoman_Idle_Left.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"859ddeab-24bf-4fa7-9b5d-a3541135b100","path":"sprites/spr_oldWoman_idle_left/spr_oldWoman_idle_left.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"f8c038be-9683-4fb5-afa6-aa92346e0528","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8823fd8c-e79b-48df-9100-f250340632f0","path":"sprites/Npc_OldWoman_Idle_Left/Npc_OldWoman_Idle_Left.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8823fd8c-e79b-48df-9100-f250340632f0","path":"sprites/spr_oldWoman_idle_left/spr_oldWoman_idle_left.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"ee162bf5-e2ee-4c23-839a-5a77ab8f478d","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"30249bde-dbda-4320-9caf-fbdf5241a9da","path":"sprites/Npc_OldWoman_Idle_Left/Npc_OldWoman_Idle_Left.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"30249bde-dbda-4320-9caf-fbdf5241a9da","path":"sprites/spr_oldWoman_idle_left/spr_oldWoman_idle_left.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"eec5c1b2-b8ba-4c2d-a944-8f03173cd462","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"97bedb37-dbdb-4ea8-8998-16e9dec582aa","path":"sprites/Npc_OldWoman_Idle_Left/Npc_OldWoman_Idle_Left.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"97bedb37-dbdb-4ea8-8998-16e9dec582aa","path":"sprites/spr_oldWoman_idle_left/spr_oldWoman_idle_left.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"58b639ca-ac33-4a2f-8cd0-6ab6360f31ec","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],

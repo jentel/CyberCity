@@ -1,9 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_player_oldWoman",
-  "eventList":[],
+  "%Name":"obj_oldWoman",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_player_oldWoman",
+  "name":"obj_oldWoman",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Npc_OldWoman_Idle_Forward",
-    "path":"sprites/Npc_OldWoman_Idle_Forward/Npc_OldWoman_Idle_Forward.yy",
+    "name":"spr_oldWoman_idle_down",
+    "path":"sprites/spr_oldWoman_idle_down/spr_oldWoman_idle_down.yy",
   },
   "spriteMaskId":null,
   "visible":true,

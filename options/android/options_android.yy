@@ -75,7 +75,7 @@
   "option_android_tv_isgame":false,
   "option_android_tv_supports_leanback":false,
   "option_android_use_facebook":false,
-  "option_android_version":"1.0.0.0",
+  "option_android_version":"0.1.0",
   "resourceType":"GMAndroidOptions",
   "resourceVersion":"2.0",
 }

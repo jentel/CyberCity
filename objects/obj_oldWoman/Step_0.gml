@@ -57,7 +57,16 @@ if (vx != 0 || vy != 0) {
 	if (vy < 0) {
 		dir = 1;
 	}
-	
+
+	// Set state
+	// If we don't have an item
+	if (hasItem == noone) {
+		myState = playerState.walking;
+	}
+	// If we're carrying an item
+	else {
+		myState = playerState.carrying;
+	}	
 }
 
 // Depth sorting

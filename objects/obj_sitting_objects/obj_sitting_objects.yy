@@ -1,18 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_kitchen_microwave",
-  "eventList":[],
+  "%Name":"obj_sitting_objects",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_kitchen_microwave",
+  "name":"obj_sitting_objects",
   "overriddenProperties":[],
   "parent":{
     "name":"Environment",
     "path":"folders/Objects/Environment.yy",
   },
-  "parentObjectId":{
-    "name":"obj_par_en_still",
-    "path":"objects/obj_par_en_still/obj_par_en_still.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"kitchen_microwave",
-    "path":"sprites/kitchen_microwave/kitchen_microwave.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

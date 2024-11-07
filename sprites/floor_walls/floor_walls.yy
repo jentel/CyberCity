@@ -1,27 +1,27 @@
 {
   "$GMSprite":"",
-  "%Name":"modern_suburb_tileset",
+  "%Name":"floor_walls",
   "bboxMode":0,
-  "bbox_bottom":255,
+  "bbox_bottom":719,
   "bbox_left":0,
-  "bbox_right":623,
-  "bbox_top":0,
+  "bbox_right":764,
+  "bbox_top":2,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"5c033ca0-34d0-4f8f-8993-5b4f4a4a42a4","name":"5c033ca0-34d0-4f8f-8993-5b4f4a4a42a4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"e5295f5e-7a2d-4369-96ca-80b6f0762a5c","name":"e5295f5e-7a2d-4369-96ca-80b6f0762a5c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":256,
+  "height":720,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"aa4089cb-4a5b-4516-8d82-7dcb5a53d805","blendMode":0,"displayName":"default","isLocked":false,"name":"aa4089cb-4a5b-4516-8d82-7dcb5a53d805","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"d977e654-96fe-475b-a6c4-a59a5117baf9","blendMode":0,"displayName":"default","isLocked":false,"name":"d977e654-96fe-475b-a6c4-a59a5117baf9","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"modern_suburb_tileset",
+  "name":"floor_walls",
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"",
-    "%Name":"modern_suburb_tileset",
+    "%Name":"floor_walls",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"modern_suburb_tileset",
+    "name":"floor_walls",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5c033ca0-34d0-4f8f-8993-5b4f4a4a42a4","path":"sprites/modern_suburb_tileset/modern_suburb_tileset.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"ae4188ea-05fa-454d-8177-0c896958659b","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e5295f5e-7a2d-4369-96ca-80b6f0762a5c","path":"sprites/floor_walls/floor_walls.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"8ad68f31-4a87-4ecb-83ae-785c277be314","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":624,
+  "width":768,
 }

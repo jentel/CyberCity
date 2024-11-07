@@ -29,10 +29,10 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
-    "name":"wall_vertical",
-    "path":"sprites/wall_vertical/wall_vertical.yy",
+    "name":"shelf",
+    "path":"sprites/shelf/shelf.yy",
   },
   "spriteMaskId":null,
   "visible":true,

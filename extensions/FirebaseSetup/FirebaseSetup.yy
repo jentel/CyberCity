@@ -7,7 +7,7 @@
   "androidinject":"\r\n<provider android:name=\"com.google.firebase.provider.FirebaseInitProvider\" android:authorities=\"${applicationId}.firebaseinitprovider\" tools:node=\"remove\"></provider>\r\n",
   "androidmanifestinject":"",
   "androidPermissions":[],
-  "androidProps":false,
+  "androidProps":true,
   "androidsourcedir":"",
   "author":"",
   "classname":"",

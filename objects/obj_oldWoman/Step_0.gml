@@ -57,7 +57,9 @@ if (vx != 0 || vy != 0) {
 	if (vy < 0) {
 		dir = 1;
 	}
-	
+
+	// Set state	
+	myState = playerState.walking;
 }
 
 // Depth sorting

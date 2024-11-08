@@ -29,7 +29,7 @@
   "origin":9,
   "parent":{
     "name":"Girl",
-    "path":"folders/Sprites/Girl.yy",
+    "path":"folders/Sprites/NPCs/Girl.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

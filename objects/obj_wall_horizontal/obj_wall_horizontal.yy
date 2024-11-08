@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"wall_horizontal",
-    "path":"sprites/wall_horizontal/wall_horizontal.yy",
+    "name":"books",
+    "path":"sprites/books/books.yy",
   },
   "spriteMaskId":null,
   "visible":true,

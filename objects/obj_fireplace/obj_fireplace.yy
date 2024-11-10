@@ -10,8 +10,8 @@
     "path":"folders/Objects/Environment.yy",
   },
   "parentObjectId":{
-    "name":"obj_par_en_still",
-    "path":"objects/obj_par_en_still/obj_par_en_still.yy",
+    "name":"obj_par_environment",
+    "path":"objects/obj_par_environment/obj_par_environment.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

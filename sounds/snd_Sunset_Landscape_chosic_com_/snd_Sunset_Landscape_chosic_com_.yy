@@ -21,5 +21,5 @@
   "sampleRate":44100,
   "soundFile":"snd_Sunset_Landscape_chosic_com_.mp3",
   "type":1,
-  "volume":0.25,
+  "volume":1.0,
 }

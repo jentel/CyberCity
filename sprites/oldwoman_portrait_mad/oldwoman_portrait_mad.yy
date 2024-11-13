@@ -1,6 +1,6 @@
 {
   "$GMSprite":"",
-  "%Name":"oldwoman_portrait",
+  "%Name":"oldwoman_portrait_mad",
   "bboxMode":0,
   "bbox_bottom":511,
   "bbox_left":80,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"293cd8f3-85f7-4b7d-b691-2ce2c0f0cfec","name":"293cd8f3-85f7-4b7d-b691-2ce2c0f0cfec","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"","%Name":"3237bbb4-ae37-4d33-b41a-e19841838df2","name":"3237bbb4-ae37-4d33-b41a-e19841838df2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"eac012e0-4eb0-4a00-af27-9493ad3beecb","name":"eac012e0-4eb0-4a00-af27-9493ad3beecb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -22,7 +22,7 @@
   "layers":[
     {"$GMImageLayer":"","%Name":"6400822b-ccae-4556-8729-04bae8f36a3a","blendMode":0,"displayName":"default","isLocked":false,"name":"6400822b-ccae-4556-8729-04bae8f36a3a","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"oldwoman_portrait",
+  "name":"oldwoman_portrait_mad",
   "nineSlice":null,
   "origin":9,
   "parent":{
@@ -34,7 +34,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"",
-    "%Name":"oldwoman_portrait",
+    "%Name":"oldwoman_portrait_mad",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -58,7 +58,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"oldwoman_portrait",
+    "name":"oldwoman_portrait_mad",
     "playback":1,
     "playbackSpeed":5.0,
     "playbackSpeedType":0,
@@ -70,11 +70,11 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"293cd8f3-85f7-4b7d-b691-2ce2c0f0cfec","path":"sprites/oldwoman_portrait/oldwoman_portrait.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"0e7d8569-f04e-48c1-ae2d-855c63abcbb0","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3237bbb4-ae37-4d33-b41a-e19841838df2","path":"sprites/oldwoman_portrait_mad/oldwoman_portrait_mad.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"fe50b082-14bc-4fb0-b24c-509a1a908c36","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3237bbb4-ae37-4d33-b41a-e19841838df2","path":"sprites/oldwoman_portrait/oldwoman_portrait.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"fe50b082-14bc-4fb0-b24c-509a1a908c36","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"eac012e0-4eb0-4a00-af27-9493ad3beecb","path":"sprites/oldwoman_portrait_mad/oldwoman_portrait_mad.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"a7d57a55-f091-4dc6-8f3e-ee8283e548d3","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

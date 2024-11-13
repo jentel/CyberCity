@@ -22,6 +22,18 @@ text_x = padding;
 text_y = padding;
 text_width = width - padding * 2;
 
+// Portrait
+portrait_x = padding;
+portrait_y = padding;
+portrait_scaling = 0.25;
+
+// Speaker
+speaker_x = padding;
+speaker_y = 0;
+speaker_y_offset = 8;
+speaker_font = font_name;
+speaker_color = c_white; //  #464633;
+
 /// Private Properties
 /** LOOK BUT DO NOT EDIT! **/
 actions = [];
@@ -30,6 +42,20 @@ current_action = -1;
 text = "";
 text_progress = 0;
 text_length = 0;
+
+portrait_sprite = -1;
+portrait_width = sprite_get_width(spr_portrait);
+portrait_height = sprite_get_height(spr_portrait);
+portrait_side = PORTRAIT_SIDE.LEFT;
+
+enum PORTRAIT_SIDE {
+	LEFT,
+	RIGHT
+}
+
+speaker_name = "";
+speaker_width = sprite_get_width(spr_name);
+speaker_heigth = sprite_get_height(spr_name);
 
 /// Methods
 /*** Generally, you'll never need to call these manually **/

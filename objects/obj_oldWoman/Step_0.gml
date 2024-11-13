@@ -62,6 +62,10 @@ if (vx != 0 || vy != 0) {
 	myState = playerState.walking;
 }
 
+if (keyboard_check(vk_enter)) {
+	show_message_async("hi");
+}
+
 // Depth sorting
 depth =- y;
 

@@ -1,5 +1,5 @@
 /// @description Textbox initialization
-depth = -999;
+depth = -9999;
 
 textbox_width = 500;
 textbox_height = 150;
@@ -13,17 +13,17 @@ txtb_img_spd = 6/60;
 
 // the test
 page = 0;
-page_number = 0;
-text = ["Here's a kinda long bit of text so we can see if everything works alright!",
-		"Here's another kinda long bit of text so we can see if everything works alrighttttttt!!!",
-		"Short",
-		"This guy that is teaching this tutorial doesn't apparently know how to instantiate an array like this so all of his code looks like trash."]
-
-
-
+page_number = 1;
+text[0] = "";
 text_length[0] = string_length(text[0]);
 draw_char = 0;
-
 text_speed = 1;
+
+// options
+option[0] = "";
+option_link_id[0] = -1;
+option_pos = 0;
+option_number = 0;
+
 
 setup = false;

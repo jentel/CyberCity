@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"scr_topics",
   "parent":{
-    "name":"Cyber City",
-    "path":"Cyber City.yyp",
+    "name":"Dialogue",
+    "path":"folders/Scripts/Dialogue.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

@@ -11,8 +11,8 @@
   "name":"obj_textbox_di",
   "overriddenProperties":[],
   "parent":{
-    "name":"Cyber City",
-    "path":"Cyber City.yyp",
+    "name":"UI",
+    "path":"folders/Objects/UI.yy",
   },
   "parentObjectId":null,
   "persistent":false,

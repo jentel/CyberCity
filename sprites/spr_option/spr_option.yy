@@ -44,8 +44,8 @@
   },
   "origin":0,
   "parent":{
-    "name":"Cyber City",
-    "path":"Cyber City.yyp",
+    "name":"Dialogue System",
+    "path":"folders/Sprites/User Interface/Dialogue System.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

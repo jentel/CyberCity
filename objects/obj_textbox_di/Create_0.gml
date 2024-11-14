@@ -76,6 +76,7 @@ option_count = 0;
 
 /// Methods
 /*** Generally, you'll never need to call these manually **/
+global.playerControl = false;
 
 // Start conversation
 setTopic = function(topic) {
@@ -88,6 +89,7 @@ setTopic = function(topic) {
 next = function() {
 	current_action++;
 	if (current_action >= array_length(actions)) {
+		global.playerControl = true;
 		instance_destroy();
 	}
 	else {

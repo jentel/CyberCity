@@ -62,10 +62,17 @@ if (vx != 0 || vy != 0) {
 	myState = playerState.walking;
 }
 
-if (keyboard_check(vk_enter)) {
-	show_message_async("hi");
-}
+//if (keyboard_check(vk_enter)) {
+//	show_message_async("hi");
+//}
 
+// Check if character is close to the computer
+if (distance_to_object(obj_computer) < 10) {
+// Transition to rm_computer
+	if (keyboard_check_pressed(vk_enter)) {
+		room_goto(rm_computer);
+	}
+}
 // Depth sorting
 depth =- y;
 

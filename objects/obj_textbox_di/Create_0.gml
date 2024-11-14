@@ -2,6 +2,8 @@
 
 // Input
 confirm_key = vk_space; // button to press to go to the next page
+up_key = vk_up; // button to press to move down in options
+down_key = vk_down; // button to press to move down in options
 max_input_delay = 5; // how many frames to ignore input
 input_delay = max_input_delay;
 
@@ -34,6 +36,16 @@ speaker_y_offset = 8;
 speaker_font = font_name;
 speaker_color = c_white; //  #464633;
 
+// Options
+option_x = padding;
+option_y = padding * -6;
+option_spacing = 50;
+option_selection_indent = 24;
+option_width = 300;
+option_height = 40;
+option_text_x = 10;
+option_text_color = c_white;
+
 /// Private Properties
 /** LOOK BUT DO NOT EDIT! **/
 actions = [];
@@ -56,6 +68,10 @@ enum PORTRAIT_SIDE {
 speaker_name = "";
 speaker_width = sprite_get_width(spr_name);
 speaker_heigth = sprite_get_height(spr_name);
+
+options = [];
+current_option = 0;
+option_count = 0;
 
 /// Methods
 /*** Generally, you'll never need to call these manually **/

@@ -4,7 +4,6 @@
 
 switch room {
 	case rm_bedroom:
-		//music_stop();
 		audio_play_sound(snd_pixel_playground_color_parade_main_version_25382_01_43, 1, 1);
 		break;
 	case rm_computer:

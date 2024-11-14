@@ -34,16 +34,17 @@ speaker_x = padding;
 speaker_y = 0;
 speaker_y_offset = 8;
 speaker_font = font_name;
-speaker_color = c_white; //  #464633;
+speaker_color = c_white;
 
 // Options
 option_x = padding;
-option_y = padding * -6;
-option_spacing = 50;
+option_y = padding + y - height - 45;
+option_spacing = 40;
 option_selection_indent = 24;
-option_width = 300;
-option_height = 40;
-option_text_x = 10;
+option_width = 200;
+option_height = 75;
+option_text_x = 20;
+option_text_y = 5;
 option_text_color = c_white;
 
 /// Private Properties

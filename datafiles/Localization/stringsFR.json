@@ -1,0 +1,10 @@
+{
+    "meta": {
+        "langNameGameNative": "French", //The name of the language, in your game's native language
+        "langNameLocal": "Français" //The name of the language, in that language
+    },
+    "menu": {
+        "localizationExample": "Exemple de localisation",
+        "letsMakeGames": "Créons des superbes jeux!"
+    }
+}

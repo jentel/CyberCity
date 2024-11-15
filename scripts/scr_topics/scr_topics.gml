@@ -20,6 +20,8 @@ global.topics[$ "Good Morning"] = [
 
 global.topics[$ "Breakfast"] = [
 	SPEAKER("Rhonda", oldwoman_portrait, PORTRAIT_SIDE.LEFT),
+	show_debug_message(LOCALIZE.menu.letsMakeGames),
+	TEXT(LOCALIZE.menu.letsMakeGames),
 	CHOICE("What do you want for breakfast?",
 			OPTION("Eggs", "Chose Eggs"),
 			OPTION("Pancakes", "Chose Pancakes"))

@@ -52,6 +52,7 @@
   "IncludedFiles":[
     {"$GMIncludedFile":"","%Name":"Firebase Web Setup - Release.zip","CopyToMask":-1,"filePath":"datafiles","name":"Firebase Web Setup - Release.zip","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"GMEXT-Firebase.html","CopyToMask":0,"filePath":"datafiles","name":"GMEXT-Firebase.html","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+    {"$GMIncludedFile":"","%Name":"Resx.csv","CopyToMask":-1,"filePath":"datafiles","name":"Resx.csv","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
   ],
   "isEcma":false,
   "LibraryEmitters":[],
@@ -205,6 +206,7 @@
     {"id":{"name":"scr_actions","path":"scripts/scr_actions/scr_actions.yy",},},
     {"id":{"name":"scr_gameControl","path":"scripts/scr_gameControl/scr_gameControl.yy",},},
     {"id":{"name":"scr_itemControl","path":"scripts/scr_itemControl/scr_itemControl.yy",},},
+    {"id":{"name":"scr_localization","path":"scripts/scr_localization/scr_localization.yy",},},
     {"id":{"name":"scr_promptControl","path":"scripts/scr_promptControl/scr_promptControl.yy",},},
     {"id":{"name":"scr_sequenceControl","path":"scripts/scr_sequenceControl/scr_sequenceControl.yy",},},
     {"id":{"name":"scr_topics","path":"scripts/scr_topics/scr_topics.yy",},},

@@ -1,18 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_computer",
-  "eventList":[],
+  "%Name":"obj_gameover",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_computer",
+  "name":"obj_gameover",
   "overriddenProperties":[],
   "parent":{
-    "name":"Environment",
-    "path":"folders/Objects/Environment.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
-  "parentObjectId":{
-    "name":"obj_par_item",
-    "path":"objects/obj_par_item/obj_par_item.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"computer",
-    "path":"sprites/computer/computer.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

@@ -1,18 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_computer",
+  "%Name":"obj_gameover_message",
   "eventList":[],
   "managed":true,
-  "name":"obj_computer",
+  "name":"obj_gameover_message",
   "overriddenProperties":[],
   "parent":{
     "name":"Environment",
     "path":"folders/Objects/Environment.yy",
   },
-  "parentObjectId":{
-    "name":"obj_par_item",
-    "path":"objects/obj_par_item/obj_par_item.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"computer",
-    "path":"sprites/computer/computer.yy",
+    "name":"gameover_message",
+    "path":"sprites/gameover_message/gameover_message.yy",
   },
   "spriteMaskId":null,
   "visible":true,

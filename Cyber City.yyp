@@ -324,6 +324,7 @@
     {"id":{"name":"Npc_OldMan_Walking_Forward","path":"sprites/Npc_OldMan_Walking_Forward/Npc_OldMan_Walking_Forward.yy",},},
     {"id":{"name":"Npc_OldMan_Walking_Left","path":"sprites/Npc_OldMan_Walking_Left/Npc_OldMan_Walking_Left.yy",},},
     {"id":{"name":"Npc_OldMan_Walking_Right","path":"sprites/Npc_OldMan_Walking_Right/Npc_OldMan_Walking_Right.yy",},},
+    {"id":{"name":"oh_no","path":"sprites/oh_no/oh_no.yy",},},
     {"id":{"name":"oldwoman_portrait_mad","path":"sprites/oldwoman_portrait_mad/oldwoman_portrait_mad.yy",},},
     {"id":{"name":"oldwoman_portrait","path":"sprites/oldwoman_portrait/oldwoman_portrait.yy",},},
     {"id":{"name":"piggy_bank","path":"sprites/piggy_bank/piggy_bank.yy",},},

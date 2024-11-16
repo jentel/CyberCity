@@ -91,6 +91,7 @@
     {"id":{"name":"obj_bookshelf08","path":"objects/obj_bookshelf08/obj_bookshelf08.yy",},},
     {"id":{"name":"obj_bookshelf09","path":"objects/obj_bookshelf09/obj_bookshelf09.yy",},},
     {"id":{"name":"obj_cabinet02","path":"objects/obj_cabinet02/obj_cabinet02.yy",},},
+    {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
     {"id":{"name":"obj_carpet","path":"objects/obj_carpet/obj_carpet.yy",},},
     {"id":{"name":"obj_chair","path":"objects/obj_chair/obj_chair.yy",},},
     {"id":{"name":"obj_computer_desk","path":"objects/obj_computer_desk/obj_computer_desk.yy",},},

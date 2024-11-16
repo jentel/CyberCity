@@ -1,5 +1,7 @@
 /// @description Non-fatal crash
 
+// Feather disable GM2016
+// Feather disable GM2043
 randomize();
 
 var b; 

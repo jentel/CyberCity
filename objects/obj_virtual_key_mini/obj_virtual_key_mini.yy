@@ -1,20 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_virtual_key",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_virtual_key_mini",
+  "eventList":[],
   "managed":true,
-  "name":"obj_virtual_key",
+  "name":"obj_virtual_key_mini",
   "overriddenProperties":[],
   "parent":{
     "name":"UI",
     "path":"folders/Objects/UI.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_virtual_key",
+    "path":"objects/obj_virtual_key/obj_virtual_key.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -40,5 +38,5 @@
     "path":"sprites/spr_arrowkey/spr_arrowkey.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

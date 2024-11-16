@@ -176,6 +176,7 @@
     {"id":{"name":"obj_textbox_di","path":"objects/obj_textbox_di/obj_textbox_di.yy",},},
     {"id":{"name":"obj_textbox","path":"objects/obj_textbox/obj_textbox.yy",},},
     {"id":{"name":"obj_virtual_button","path":"objects/obj_virtual_button/obj_virtual_button.yy",},},
+    {"id":{"name":"obj_virtual_key_mini","path":"objects/obj_virtual_key_mini/obj_virtual_key_mini.yy",},},
     {"id":{"name":"obj_virtual_key","path":"objects/obj_virtual_key/obj_virtual_key.yy",},},
     {"id":{"name":"obj_wall_front","path":"objects/obj_wall_front/obj_wall_front.yy",},},
     {"id":{"name":"obj_wall_horizontal","path":"objects/obj_wall_horizontal/obj_wall_horizontal.yy",},},

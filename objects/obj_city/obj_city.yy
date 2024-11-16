@@ -1,18 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_computer",
+  "%Name":"obj_city",
   "eventList":[],
   "managed":true,
-  "name":"obj_computer",
+  "name":"obj_city",
   "overriddenProperties":[],
   "parent":{
     "name":"Environment",
     "path":"folders/Objects/Environment.yy",
   },
-  "parentObjectId":{
-    "name":"obj_par_item",
-    "path":"objects/obj_par_item/obj_par_item.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"computer",
-    "path":"sprites/computer/computer.yy",
+    "name":"city",
+    "path":"sprites/city/city.yy",
   },
   "spriteMaskId":null,
   "visible":true,

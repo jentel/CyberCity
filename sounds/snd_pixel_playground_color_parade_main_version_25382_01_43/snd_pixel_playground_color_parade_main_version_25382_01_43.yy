@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_pixel_playground_color_parade_main_version_25382_01_43",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":103.41878,
+  "name":"snd_pixel_playground_color_parade_main_version_25382_01_43",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_pixel_playground_color_parade_main_version_25382_01_43.mp3",
+  "type":0,
+  "volume":0.07,
+}

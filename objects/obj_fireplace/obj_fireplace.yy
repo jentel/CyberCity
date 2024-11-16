@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"fireplace",
-    "path":"sprites/fireplace/fireplace.yy",
+    "name":"chimney",
+    "path":"sprites/chimney/chimney.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"chair",
-    "path":"sprites/chair/chair.yy",
+    "name":"chair_livingroom",
+    "path":"sprites/chair_livingroom/chair_livingroom.yy",
   },
   "spriteMaskId":null,
   "visible":true,

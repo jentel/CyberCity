@@ -78,6 +78,6 @@ function GotoAction(_topic) : DialogueAction() constructor {
 // Game Over
 function GotToEnd() : DialogueAction () constructor {
 	act = function() {
-		room_goto(rm_computer);
+		room_goto(rm_gameover);
 	}
 }

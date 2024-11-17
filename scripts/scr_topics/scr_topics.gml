@@ -61,24 +61,5 @@ global.topics[$ "hint 1"] = [
 #endregion
 #region ------------------------------------------------------ Section 2 ---------------------------------------
 global.topics[$ "wrong choice 1"] = [
-	
 
-];
-
-#endregion
-global.topics[$ "Breakfast"] = [
-	SPEAKER("Rhonda", oldwoman_portrait, PORTRAIT_SIDE.LEFT),
-	CHOICE("What do you want for breakfast?",
-			OPTION("Eggs", "Chose Eggs"),
-			OPTION("Pancakes", "Chose Pancakes"))
-];
-
-global.topics[$ "Chose Eggs"] = [
-	TEXT("That's a healthy way to start the day!"),
-	GOTO("End of Breakfast")
-];
-
-global.topics[$ "Chose Pancakes"] = [
-	TEXT(Text("intro")),
-	GOTO("End of Breakfast")
 ];

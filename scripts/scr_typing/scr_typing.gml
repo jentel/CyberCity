@@ -11,6 +11,10 @@ function startDialogue(topic) {
 	inst.setTopic(topic);
 }
 
+function startDialogueMoment() {
+	startDialogue(ViewEmail);	
+}
+
 /// @desc Function Types out the text in the textbox, and looks for
 /// longer words to put on the next line
 /// @param {any*} x Description

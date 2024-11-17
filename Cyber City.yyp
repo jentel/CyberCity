@@ -178,6 +178,7 @@
     {"id":{"name":"obj_sofa_left03","path":"objects/obj_sofa_left03/obj_sofa_left03.yy",},},
     {"id":{"name":"obj_television","path":"objects/obj_television/obj_television.yy",},},
     {"id":{"name":"obj_televsion_stand","path":"objects/obj_televsion_stand/obj_televsion_stand.yy",},},
+    {"id":{"name":"obj_test_gui","path":"objects/obj_test_gui/obj_test_gui.yy",},},
     {"id":{"name":"obj_textbox_di","path":"objects/obj_textbox_di/obj_textbox_di.yy",},},
     {"id":{"name":"obj_textbox","path":"objects/obj_textbox/obj_textbox.yy",},},
     {"id":{"name":"obj_virtual_bt_standalone","path":"objects/obj_virtual_bt_standalone/obj_virtual_bt_standalone.yy",},},

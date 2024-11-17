@@ -40,5 +40,5 @@
     "path":"sprites/spr_arrowkey/spr_arrowkey.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

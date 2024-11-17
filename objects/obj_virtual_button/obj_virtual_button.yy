@@ -40,5 +40,5 @@
     "path":"sprites/spr_buttonkey/spr_buttonkey.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

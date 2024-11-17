@@ -286,6 +286,7 @@
     {"id":{"name":"computerAnddesk","path":"sprites/computerAnddesk/computerAnddesk.yy",},},
     {"id":{"name":"couch","path":"sprites/couch/couch.yy",},},
     {"id":{"name":"currency_bar","path":"sprites/currency_bar/currency_bar.yy",},},
+    {"id":{"name":"cut_ssn","path":"sprites/cut_ssn/cut_ssn.yy",},},
     {"id":{"name":"email_icon_open","path":"sprites/email_icon_open/email_icon_open.yy",},},
     {"id":{"name":"email_icon","path":"sprites/email_icon/email_icon.yy",},},
     {"id":{"name":"fireplace","path":"sprites/fireplace/fireplace.yy",},},

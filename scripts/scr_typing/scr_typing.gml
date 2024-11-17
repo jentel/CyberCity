@@ -7,12 +7,30 @@ function startDialogue(topic) {
 	if(instance_exists(obj_textbox_di))
 		return;
 	
-	var inst = instance_create_depth(x, y, -999, obj_textbox_di);
-	inst.setTopic(topic);
+	try
+	{
+		var inst = instance_create_depth(x, y, -999, obj_textbox_di);
+		inst.setTopic(topic);
+	}
+	catch(_exception) {
+		show_debug_message(_exception);
+		var inst = instance_create_depth(255, 150, -999, obj_textbox_di);
+		inst.setTopic(topic);
+	}
 }
 
 function startDialogueMoment() {
-	startDialogue(ViewEmail);	
+	
+	//layer_sequence_destroy(open_email);
+	//global.isSeqActive = false;
+	//startDialogue(ViewEmail);
+	
+	//act = function() {
+		layer_sequence_destroy(open_email);
+		new DialogueAction();
+		global.isSeqActive = false;
+		startDialogue(ViewEmail);
+	//}
 }
 
 /// @desc Function Types out the text in the textbox, and looks for

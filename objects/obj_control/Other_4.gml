@@ -10,6 +10,7 @@ switch room {
 	case rm_computer:
 		audio_stop_sound(snd_pixel_playground_color_parade_main_version_25382_01_43);
 		audio_play_sound(snd_sneak_in_soundroll_main_version_16772_01_52, 1, 1);
+		global.isSeqActive = true;
 		scr_playSequence(open_email)
 		break;
 	case rm_gameover:

@@ -38,7 +38,7 @@ if (text_progress == text_length) {
 		}
 	}
 	else if(confirm) {
-		next();
+		next(current_topic);
 	}
 }
 else if (confirm) {

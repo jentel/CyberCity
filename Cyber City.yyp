@@ -160,6 +160,7 @@
     {"id":{"name":"obj_par_environment","path":"objects/obj_par_environment/obj_par_environment.yy",},},
     {"id":{"name":"obj_par_item","path":"objects/obj_par_item/obj_par_item.yy",},},
     {"id":{"name":"obj_par_npc","path":"objects/obj_par_npc/obj_par_npc.yy",},},
+    {"id":{"name":"obj_pc_start","path":"objects/obj_pc_start/obj_pc_start.yy",},},
     {"id":{"name":"obj_pillow02","path":"objects/obj_pillow02/obj_pillow02.yy",},},
     {"id":{"name":"obj_pillow03","path":"objects/obj_pillow03/obj_pillow03.yy",},},
     {"id":{"name":"obj_pillow04","path":"objects/obj_pillow04/obj_pillow04.yy",},},

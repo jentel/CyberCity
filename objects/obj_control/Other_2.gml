@@ -2,9 +2,13 @@
 
 // Game (Global) variables
 global.playerControl = true;
+global.isSeqActive = false;
 
 global.gameOver = false;
 global.gameStart = false;
+
+global.CamX = undefined;
+global.CamY = undefined;
 
 // Player States
 enum playerState {

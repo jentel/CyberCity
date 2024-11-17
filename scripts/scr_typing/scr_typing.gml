@@ -7,8 +7,46 @@ function startDialogue(topic) {
 	if(instance_exists(obj_textbox_di))
 		return;
 	
-	var inst = instance_create_depth(x, y, -999, obj_textbox_di);
-	inst.setTopic(topic);
+	try
+	{
+		var inst = instance_create_depth(x, y, -999, obj_textbox_di);
+		inst.setTopic(topic);
+	}
+	catch(_exception) {
+		show_debug_message(_exception);
+		var inst = instance_create_depth(255, 150, -999, obj_textbox_di);
+		inst.setTopic(topic);
+	}
+}
+
+/**
+ * Function Gets called at the end of the computer sequence
+ * This is called a "moment"
+ */
+function startDialogueMoment() {
+	layer_sequence_destroy(open_link);
+	new DialogueAction();
+	global.isSeqActive = false;
+	startDialogue(ViewEmail);
+}
+
+/**
+ * Function Gets called at the end of the computer sequence
+ * This is called a "moment"
+ */
+function startDialogueMomentVirus() {
+	layer_sequence_destroy(open_email);
+		
+	var lay_id = layer_get_id("Background_PC");
+	var back_id = layer_background_get_id(lay_id);
+	if (layer_background_get_sprite(back_id) != cut_ssn)
+	{
+	    layer_background_sprite(back_id, virus);
+	}
+
+	new DialogueAction();
+	global.isSeqActive = false;
+	startDialogue(VirusPopup);
 }
 
 /// @desc Function Types out the text in the textbox, and looks for

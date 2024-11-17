@@ -2,6 +2,7 @@
 #macro Email "email"
 #macro ViewEmail "view_email"
 #macro InterEmail "interact_email"
+#macro VirusPopup "virus_popup"
 
 rhonda = "Rhonda";
 
@@ -42,7 +43,6 @@ global.topics[$ ViewEmail] = [
 // Bad Choice
 global.topics[$ "follow link"] = [
 	TEXT(Text("extra_money")),
-	GOTO("wrong choice 1")
 ];
 
 // Good Choice
@@ -60,7 +60,7 @@ global.topics[$ "hint 1"] = [
 ];
 #endregion
 #region ------------------------------------------------------ Section 2 ---------------------------------------
-global.topics[$ "wrong choice 2"] = [
+global.topics[$ VirusPopup] = [
 	SPEAKER(rhonda, oh_no, PORTRAIT_SIDE.LEFT),
 		TEXT(Text("oh_no")),
 			OPTION(Text("turn_off"), "turn off"),
@@ -70,7 +70,7 @@ global.topics[$ "wrong choice 2"] = [
 
 // Bad Choice
 global.topics[$ "call number"] = [
-	TEXT(Text("")),
+	TEXT(Text("call")),
 	GOTO("wrong choice 3")
 ];
 

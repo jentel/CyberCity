@@ -3,6 +3,7 @@
 #macro CHOICE new ChoiceAction
 #macro OPTION new OptionAction
 #macro GOTO new GotoAction
+#macro VIRUS new GoToVirus 
 #macro END new GotToEnd
 
 function DialogueAction() constructor {

@@ -2,7 +2,7 @@
 
 // Input
 //confirm_key = vk_space; // button to press to go to the next page
-confirm_key = vk_enter;
+confirm_key = vk_enter; // button to press to go to the next page
 up_key = vk_up; // button to press to move down in options
 down_key = vk_down; // button to press to move down in options
 max_input_delay = 5; // how many frames to ignore input
@@ -75,6 +75,7 @@ options = [];
 current_option = 0;
 option_count = 0;
 
+current_topic = ""
 /// Methods
 /*** Generally, you'll never need to call these manually **/
 
@@ -84,11 +85,13 @@ setTopic = function(topic) {
 	global.playerControl = false;
 	actions = global.topics[$ topic];
 	current_action = -1;
-	next();
+	current_topic = topic;
+	next(topic);
 }
 
 // Move to the next action, or close the textbox if out of actions
-next = function() {
+next = function(topic) {
+	current_topic = topic;
 	current_action++;
 	if (current_action >= array_length(actions)) {
 		global.playerControl = true;

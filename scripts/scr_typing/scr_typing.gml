@@ -19,18 +19,15 @@ function startDialogue(topic) {
 	}
 }
 
+/**
+ * Function Gets called at the end of the computer sequence
+ * This is called a "moment"
+ */
 function startDialogueMoment() {
-	
-	//layer_sequence_destroy(open_email);
-	//global.isSeqActive = false;
-	//startDialogue(ViewEmail);
-	
-	//act = function() {
 		layer_sequence_destroy(open_email);
 		new DialogueAction();
 		global.isSeqActive = false;
 		startDialogue(ViewEmail);
-	//}
 }
 
 /// @desc Function Types out the text in the textbox, and looks for

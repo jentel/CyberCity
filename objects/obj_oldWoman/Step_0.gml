@@ -61,13 +61,45 @@ if (vx != 0 || vy != 0) {
 	// Set state	
 	myState = playerState.walking;
 }
+nearbyNPC = collision_rectangle(x - lookRange, y - lookRange, 
+								x + lookRange, y + lookRange, obj_par_npc, false, true);
+if (nearbyNPC) {
+	// prop up prompt
+	if (npcPrompt == noone || npcPrompt == undefined) {
+		npcPrompt = scr_showPrompt(nearbyNPC, nearbyNPC.x, nearbyNPC.y);
+	}
+	show_debug_message("player has found npc");
+}
+else {
+	// get rid of prompt
+	scr_dismissPrompt(npcPrompt, 0);
+	show_debug_message("player has NOT found anything");
+}
+
+// Check for collision with Items
+nearbyItem = collision_rectangle(x - lookRange, y - lookRange, x + lookRange, y + lookRange, obj_par_item, false, true);
+if (nearbyItem) {
+	// pop up prompt
+	if (itemPrompt == noone || itemPrompt == undefined) {
+		show_debug_message("obj_player has found an item!");
+		itemPrompt = scr_showPrompt(nearbyItem,nearbyItem.x,nearbyItem.y-90);
+	}
+}
+if (!nearbyItem) {
+	// Get rid of prompt
+	scr_dismissPrompt(itemPrompt,1);
+}
 
 // Check if character is close to the computer
 if (distance_to_object(obj_computer) < 10) {
 // Transition to rm_computer
-	if (keyboard_check_pressed(vk_enter)) {
+if (keyboard_check_pressed(vk_enter)) {
 		room_goto(rm_computer);
 	}
+}
+
+if (keyboard_check_pressed(vk_backspace)){
+		room_goto(rm_gameover);
 }
 // Depth sorting
 depth =- y;

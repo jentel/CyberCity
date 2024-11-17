@@ -1,1 +1,40 @@
-intro,"""Wow, 35 years of hard work finally pays off! \nI can now retire and spend my days living out in this cozy apartment."""
+intro,"Wow, 35 years of hard work finally pays off! I can now retire and spend my days living out in this cozy apartment."
+intro_1,my days living out in this cozy apartment.
+intro_2,Let me check out the things in my apartment.
+email,"Oh, it sounds like I have an email, let me check the computer."
+email_2,That's odd. An email about my social security benefits.
+need_2_wait,That can wait. I need to check this email regarding my social security benefits.
+extra_money,"Extra money will be so nice. I can pay the bills on time, buy something nice for myself..."
+silly_scam,That's a silly scam email. Let's see what was I supposed to do again? Oh that's right! Pay my bills!
+oh_no,Oh NO! What is this?! How do I turn this OFF?!?!
+pc_off,I need help with this. Who do I know who is good with computers?
+tech_1,Hello? Thank you for calling tech support. May I please get your name and phone number please? 
+rhonda_1,Hello? I keep getting this popup message. Could you please help me remove these? 
+tech_2,Yes certainly ma'am. Could I please get your name and a return phone number to start? 
+rhonda_2,Oh yes. My name is Rhonda. My phone number is 123-456-7890. 
+tech_3,"Thank you ma'am. Now, from the popup message, could you please read the error code number, and the message? "
+rhonda_3,"The error code message..... The error code message..... Oh, here it is. It's Error 103.129.118.47."
+tech_4,"Okay ma'am, to continue with this, I will have to connect to your computer to look at it. Do I have the permission to do that?"
+rhonda_4,"Oh, I don't know. Isn't there a way to help me without doing that?"
+tech_5,"No ma'am, I will need to go into your computer to help with this. When ready please go to this website."
+rhonda_quit,"No, I think I'll try to figure this out on my own."
+rhonda_5,Oh alright. Just help me get this pop up to stop appearing. I have to pay my bills before it's going to charge me with late charge fees.
+tech_6,Alright ma'am. Please don't touch your mouse or keyboard during this interaction. I'll quickly remove this pop up message for you...... And there. You should not be getting any more pop up messages.
+rhonda_6,Would you look at that? No more pop up messages. Well thank you for your help.
+tech_7,Click ...... silence.......
+rhonda_7,Huh? Must've disconnected.
+yes,Yes
+no,No
+hint,Hint
+game,Game
+instruct,Use the arrow keys to move around. Use the large button to interact and select.
+next,Next
+delete,Delete Email
+hint_1,"Check to see if the email address of the sender is ssa.gov. This is the social security agency official email address. Check to see if they're any grammar mistakes or urgent language used. Instead of clicking on the link,"
+hint_1_2," go directly to the SSA website, www.ssa.gov or call their number on the website to verify emails legitimacy."
+click_choice,Click on Link
+turn_off,Turn Off the Computer
+call,Call Tech Support Number
+hangup,Hang Up
+hint_2,"A legitimate tech company will not contact you via phone, email, txt, or pop up window to inform you that you have computer problems."
+hint_3,Ask them if you can call them back on the company's official number to verify. Ask for their name and employee id number. Scammers will typically avoid giving personal information and create an urgency to have you stay on the line with them.

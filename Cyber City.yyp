@@ -358,6 +358,7 @@
     {"id":{"name":"spr_bg_mainTitle","path":"sprites/spr_bg_mainTitle/spr_bg_mainTitle.yy",},},
     {"id":{"name":"spr_block","path":"sprites/spr_block/spr_block.yy",},},
     {"id":{"name":"spr_buttonkey","path":"sprites/spr_buttonkey/spr_buttonkey.yy",},},
+    {"id":{"name":"spr_continue","path":"sprites/spr_continue/spr_continue.yy",},},
     {"id":{"name":"spr_dust","path":"sprites/spr_dust/spr_dust.yy",},},
     {"id":{"name":"spr_emote_exclamation","path":"sprites/spr_emote_exclamation/spr_emote_exclamation.yy",},},
     {"id":{"name":"spr_emote_flustered","path":"sprites/spr_emote_flustered/spr_emote_flustered.yy",},},

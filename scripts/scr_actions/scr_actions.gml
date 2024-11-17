@@ -3,6 +3,7 @@
 #macro CHOICE new ChoiceAction
 #macro OPTION new OptionAction
 #macro GOTO new GotoAction
+#macro END new GotToEnd
 
 function DialogueAction() constructor {
 	act = function() {};
@@ -25,6 +26,9 @@ function SpeakerAction(_name, _sprite = undefined, _side = undefined) : Dialogue
 	
 	act = function(textbox) {
 		textbox.speaker_name = name;
+		// clear cache
+		textbox.portrait_sprite = undefined;
+		textbox.portrait_side = undefined;
 		
 		if(!is_undefined(sprite))
 			textbox.portrait_sprite = sprite;
@@ -68,5 +72,12 @@ function GotoAction(_topic) : DialogueAction() constructor {
 	
 	act = function(textbox) {
 		textbox.setTopic(topic);
+	}
+}
+
+// Game Over
+function GotToEnd() : DialogueAction () constructor {
+	act = function() {
+		room_goto(rm_computer);
 	}
 }

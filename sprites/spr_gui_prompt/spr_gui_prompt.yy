@@ -2,7 +2,7 @@
   "$GMSprite":"",
   "%Name":"spr_gui_prompt",
   "bboxMode":0,
-  "bbox_bottom":61,
+  "bbox_bottom":60,
   "bbox_left":0,
   "bbox_right":59,
   "bbox_top":0,

@@ -76,10 +76,11 @@ option_count = 0;
 
 /// Methods
 /*** Generally, you'll never need to call these manually **/
-global.playerControl = false;
+
 
 // Start conversation
 setTopic = function(topic) {
+	global.playerControl = false;
 	actions = global.topics[$ topic];
 	current_action = -1;
 	next();

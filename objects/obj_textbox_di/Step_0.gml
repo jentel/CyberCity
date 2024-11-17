@@ -9,7 +9,7 @@ if(input_delay > 0) {
 	input_delay--;
 	exit;
 }
-
+global.playerControl = false;
 // Are we finished typing?
 if (text_progress == text_length) {
 	if(option_count > 0) {

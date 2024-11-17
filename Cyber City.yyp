@@ -47,6 +47,7 @@
     {"$GMFolder":"","%Name":"Sequences","folderPath":"folders/Sprites/Sequences.yy","name":"Sequences","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"User Interface","folderPath":"folders/Sprites/User Interface.yy","name":"User Interface","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Dialogue System","folderPath":"folders/Sprites/User Interface/Dialogue System.yy","name":"Dialogue System","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Computer Interface","folderPath":"folders/Sprites/User Interface/Computer Interface.yy","name":"Computer Interface","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Tile Sets","folderPath":"folders/Tile Sets.yy","name":"Tile Sets","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
   "IncludedFiles":[
@@ -401,6 +402,7 @@
     {"id":{"name":"spr_oldWoman_walk_up","path":"sprites/spr_oldWoman_walk_up/spr_oldWoman_walk_up.yy",},},
     {"id":{"name":"spr_option_arrow","path":"sprites/spr_option_arrow/spr_option_arrow.yy",},},
     {"id":{"name":"spr_option","path":"sprites/spr_option/spr_option.yy",},},
+    {"id":{"name":"spr_pc_background","path":"sprites/spr_pc_background/spr_pc_background.yy",},},
     {"id":{"name":"spr_portrait","path":"sprites/spr_portrait/spr_portrait.yy",},},
     {"id":{"name":"spr_seq_bgEffect01","path":"sprites/spr_seq_bgEffect01/spr_seq_bgEffect01.yy",},},
     {"id":{"name":"spr_seq_bgEffect02","path":"sprites/spr_seq_bgEffect02/spr_seq_bgEffect02.yy",},},

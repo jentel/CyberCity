@@ -60,7 +60,92 @@ global.topics[$ "hint 1"] = [
 ];
 #endregion
 #region ------------------------------------------------------ Section 2 ---------------------------------------
-global.topics[$ "wrong choice 1"] = [
+global.topics[$ "wrong choice 2"] = [
+	SPEAKER(rhonda, oh_no, PORTRAIT_SIDE.LEFT),
+		TEXT(Text("oh_no")),
+			OPTION(Text("turn_off"), "turn off"),
+			OPTION(Text("call"), "call number"),
+			OPTION(Text("hint"), "hint_2")
+];
 
+// Bad Choice
+global.topics[$ "call number"] = [
+	TEXT(Text("")),
+	GOTO("wrong choice 3")
+];
+
+// Good Choice
+global.topics[$ "turn off"] = [
+	TEXT(Text("pc_off")),
+	END()
+];
+
+// Hint 2 - computer problem
+global.topics[$ "hint 2"] = [
+	SPEAKER(Text("game")),
+		TEXT(Text("hint_2")),
+		GOTO("wrong choice 2")
+];
+#endregion
+#region ------------------------------------------------------ Section 3 ---------------------------------------
+global.topics[$ "wrong choice 3"] = [
+	SPEAKER(rhonda, ring_1, PORTRAIT_SIDE.LEFT),
+		TEXT(Text("ring")),
+		
+	SPEAKER(Text("tech_sup"), anonymous_portrait, PORTRAIT_SIDE.RIGHT),
+		TEXT(Text("tech_1")),
+	SPEAKER(rhonda, oldwoman_portrait, PORTRAIT_SIDE.LEFT),
+		TEXT(Text("rhonda_1")),
+	
+	SPEAKER(Text("tech_sup"), anonymous_portrait, PORTRAIT_SIDE.RIGHT),
+		TEXT(Text("tech_2")),
+	SPEAKER(rhonda, oldwoman_portrait, PORTRAIT_SIDE.LEFT),
+		TEXT(Text("rhonda_2")),
+	
+	SPEAKER(Text("tech_sup"), anonymous_portrait, PORTRAIT_SIDE.RIGHT),
+		TEXT(Text("tech_3")),
+	SPEAKER(rhonda, oldwoman_portrait, PORTRAIT_SIDE.LEFT),
+		TEXT(Text("rhonda_3")),
+	
+	SPEAKER(Text("tech_sup"), anonymous_portrait, PORTRAIT_SIDE.RIGHT),
+		TEXT(Text("tech_4")),
+	SPEAKER(rhonda, oldwoman_portrait_mad, PORTRAIT_SIDE.LEFT),
+		TEXT(Text("rhonda_4")),
+		
+	SPEAKER(Text("tech_sup"), anonymous_portrait, PORTRAIT_SIDE.RIGHT),
+		TEXT(Text("tech_5")),
+		
+	SPEAKER(rhonda, oldwoman_portrait_mad, PORTRAIT_SIDE.LEFT),
+			OPTION(Text("hangup"), "hang up"),
+			OPTION(Text("proceed"), "proceed"),
+			OPTION(Text("hint"), "hint 3")	
+];
+
+// Bad Choice
+global.topics[$ "proceed"] = [
+	SPEAKER(rhonda, oldwoman_portrait_mad, PORTRAIT_SIDE.LEFT),
+		TEXT(Text("rhonda_5")),
+
+	SPEAKER(Text("tech_sup"), anonymous_portrait, PORTRAIT_SIDE.RIGHT),
+		TEXT(Text("tech_6")),
+		TEXT(Text("tech_7")),
+		
+	SPEAKER(rhonda, oldwoman_portrait, PORTRAIT_SIDE.LEFT),
+		TEXT(Text("rhonda_7")),
+	// TODO: Need to create 
+	END()
+];
+
+// Good Choice
+global.topics[$ "hang up"] = [
+	TEXT(Text("rhonda_quit")),
+	END()
+];
+
+// Hint 3 - more problems
+global.topics[$ "hint 3"] = [
+	SPEAKER(Text("game")),
+		TEXT(Text("hint_3")),
+		GOTO("wrong choice 3")
 ];
 #endregion

@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_virtual_key",
+  "%Name":"obj_virtual_button_1",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_virtual_key",
+  "name":"obj_virtual_button_1",
   "overriddenProperties":[],
   "parent":{
     "name":"UI",
@@ -27,16 +27,13 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[
-    {"$GMObjectProperty":"v1","%Name":"keycode","filters":[],"listItems":[],"multiselect":false,"name":"keycode","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"vk_left","varType":4,},
-    {"$GMObjectProperty":"v1","%Name":"directions_sprite","filters":[],"listItems":[],"multiselect":false,"name":"directions_sprite","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"spr_computer_screen","path":"sprites/spr_computer_screen/spr_computer_screen.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"computer_screen","varType":5,},
-  ],
+  "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"spr_arrowkey",
-    "path":"sprites/spr_arrowkey/spr_arrowkey.yy",
+    "name":"spr_buttonkey",
+    "path":"sprites/spr_buttonkey/spr_buttonkey.yy",
   },
   "spriteMaskId":null,
   "visible":true,

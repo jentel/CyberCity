@@ -126,7 +126,7 @@ else {
 	
 	// get rid of prompt
 	scr_dismissPrompt(npcPrompt, 0);
-	show_debug_message("player has NOT found anything");
+	//show_debug_message("player has NOT found anything");
 }
 
 // Check for collision with Items

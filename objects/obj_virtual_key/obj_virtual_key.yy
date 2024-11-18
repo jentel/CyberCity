@@ -30,7 +30,6 @@
   "physicsStartAwake":true,
   "properties":[
     {"$GMObjectProperty":"v1","%Name":"keycode","filters":[],"listItems":[],"multiselect":false,"name":"keycode","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"vk_left","varType":4,},
-    {"$GMObjectProperty":"v1","%Name":"directions_sprite","filters":[],"listItems":[],"multiselect":false,"name":"directions_sprite","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"computer_screen","path":"sprites/computer_screen/computer_screen.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"computer_screen","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

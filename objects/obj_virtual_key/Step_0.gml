@@ -15,6 +15,10 @@ else if (global.isSeqActive)
 	obj_virtual_button.visible = 0
 	obj_virtual_key_mini.visible = 0;
 }
+else if room == rm_gameover
+{
+	obj_virtual_key.visible = 0;
+}
 else {
 	obj_virtual_button.y = 285.2945;
 	//obj_virtual_button.keycode = vk_enter;

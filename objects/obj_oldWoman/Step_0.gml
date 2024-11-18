@@ -77,7 +77,7 @@ else {
 }
 
 // Check for collision with Items
-nearbyItem = collision_rectangle(x - lookRange, y - lookRange, x + lookRange, y + lookRange, obj_par_item, false, true);
+nearbyItem = collision_rectangle(x - 1380, y - 1380, x + 1380, y + 1380, obj_par_item, false, true);
 if (nearbyItem) {
 	// pop up prompt
 	if (itemPrompt == noone || itemPrompt == undefined) {

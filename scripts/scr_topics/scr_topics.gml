@@ -81,10 +81,10 @@ global.topics[$ "turn off"] = [
 ];
 
 // Hint 2 - computer problem
-global.topics[$ "hint 2"] = [
+global.topics[$ "hint_2"] = [
 	SPEAKER(Text("game")),
 		TEXT(Text("hint_2")),
-		GOTO("wrong choice 2")
+		GOTO(VirusPopup)
 ];
 #endregion
 #region ------------------------------------------------------ Section 3 ---------------------------------------
@@ -114,9 +114,13 @@ global.topics[$ "wrong choice 3"] = [
 		
 	SPEAKER(Text("tech_sup"), anonymous_portrait, PORTRAIT_SIDE.RIGHT),
 		TEXT(Text("tech_5")),
-		
+		GOTO("last choice")
+];
+
+// skip all that text
+global.topics[$"last choice"] = [
 	SPEAKER(rhonda, oldwoman_portrait_mad, PORTRAIT_SIDE.LEFT),
-		CHOICE(Text(""),
+		CHOICE("",
 			OPTION(Text("hangup"), "hang up"),
 			OPTION(Text("proceed"), "proceed"),
 			OPTION(Text("hint"), "hint 3"))
@@ -149,7 +153,8 @@ global.topics[$ "hang up"] = [
 // Hint 3 - more problems
 global.topics[$ "hint 3"] = [
 	SPEAKER(Text("game")),
-		TEXT(Text("hint_3")),
-		GOTO("wrong choice 3")
+		TEXT(Text("hint_3_1")),
+		TEXT(Text("hint_3_2")),
+		GOTO("last choice")
 ];
 #endregion

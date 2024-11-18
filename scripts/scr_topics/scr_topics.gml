@@ -62,10 +62,10 @@ global.topics[$ "hint 1"] = [
 #region ------------------------------------------------------ Section 2 ---------------------------------------
 global.topics[$ VirusPopup] = [
 	SPEAKER(rhonda, oh_no, PORTRAIT_SIDE.LEFT),
-		TEXT(Text("oh_no")),
+		CHOICE(Text("oh_no"),
 			OPTION(Text("turn_off"), "turn off"),
 			OPTION(Text("call"), "call number"),
-			OPTION(Text("hint"), "hint_2")
+			OPTION(Text("hint"), "hint_2"))
 ];
 
 // Bad Choice
@@ -116,9 +116,10 @@ global.topics[$ "wrong choice 3"] = [
 		TEXT(Text("tech_5")),
 		
 	SPEAKER(rhonda, oldwoman_portrait_mad, PORTRAIT_SIDE.LEFT),
+		CHOICE(Text(""),
 			OPTION(Text("hangup"), "hang up"),
 			OPTION(Text("proceed"), "proceed"),
-			OPTION(Text("hint"), "hint 3")	
+			OPTION(Text("hint"), "hint 3"))
 ];
 
 // Bad Choice
@@ -127,7 +128,10 @@ global.topics[$ "proceed"] = [
 		TEXT(Text("rhonda_5")),
 
 	SPEAKER(Text("tech_sup"), anonymous_portrait, PORTRAIT_SIDE.RIGHT),
-		TEXT(Text("tech_6")),
+		TEXT(Text("tech_6_1")),
+		TEXT(Text("tech_6_2")),
+		
+	SPEAKER(Text("tech_sup")),
 		TEXT(Text("tech_7")),
 		
 	SPEAKER(rhonda, oldwoman_portrait, PORTRAIT_SIDE.LEFT),

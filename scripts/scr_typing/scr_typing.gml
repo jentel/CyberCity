@@ -13,8 +13,16 @@ function startDialogue(topic) {
 		inst.setTopic(topic);
 	}
 	catch(_exception) {
-		show_debug_message(_exception);
-		var inst = instance_create_depth(255, 150, -999, obj_textbox_di);
+		instance_destroy(obj_textbox_di, true);
+		
+		var margin = 16;
+		var width = display_get_gui_width() - margin * 2;
+		var height = (display_get_gui_height() - margin * 2) - 150;
+		
+		x = (display_get_gui_width() - width) / 2;
+		y = display_get_gui_height() - height - margin;
+		
+		var inst = instance_create_depth(x, y, -999, obj_textbox_di);
 		inst.setTopic(topic);
 	}
 }

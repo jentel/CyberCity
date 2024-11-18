@@ -75,7 +75,12 @@ if(finished && option_count > 0) {
 			draw_sprite(spr_option_arrow, 0, opt_x, opt_y);
 		}
 		
-		draw_sprite_stretched(spr_option, 0, opt_x, opt_y - option_height / 2, option_width, option_height);
+		var newWidth = option_width;
+		
+		if(options != undefined && options[i] != undefined)
+			newWidth = max(option_width, string_width(options[i].text) + 50)
+		
+		draw_sprite_stretched(spr_option, 0, opt_x, opt_y - option_height / 2, newWidth, option_height);
 		draw_text(opt_x + option_text_x, opt_y + option_text_y, options[i].text);
 	}
 }

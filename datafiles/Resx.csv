@@ -19,7 +19,8 @@ rhonda_4,"Oh, I don't know. Isn't there a way to help me without doing that?"
 tech_5,"No ma'am, I will need to go into your computer to help with this. When ready please go to this website."
 rhonda_quit,"No, I think I'll try to figure this out on my own."
 rhonda_5,Oh alright. Just help me get this pop up to stop appearing. I have to pay my bills before it's going to charge me with late charge fees.
-tech_6,Alright ma'am. Please don't touch your mouse or keyboard during this interaction. I'll quickly remove this pop up message for you...... And there. You should not be getting any more pop up messages.
+tech_6_1,Alright ma'am. Please don't touch your mouse or keyboard during this interaction. I'll quickly remove this pop up message for you......
+tech_6_2,And there. You should not be getting any more pop up messages.
 rhonda_6,Would you look at that? No more pop up messages. Well thank you for your help.
 tech_7,Click ...... silence.......
 rhonda_7,Huh? Must've disconnected.
@@ -40,5 +41,5 @@ hint_2,"A legitimate tech company will not contact you via phone, email, text, o
 hint_3,Ask them if you can call them back on the company's official number to verify. Ask for their name and employee id number. Scammers will typically avoid giving personal information and create an urgency to have you stay on the line with them.
 enter,Enter
 tech_sup,Tech Support
-ring,Ring… Ring…
+ring,Ring...... Ring......
 proceed,Proceed

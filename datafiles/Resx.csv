@@ -38,7 +38,8 @@ turn_off,Turn Off the Computer
 call,Call Tech Support Number
 hangup,Hang Up
 hint_2,"A legitimate tech company will not contact you via phone, email, text, or pop up window to inform you that you have computer problems."
-hint_3,Ask them if you can call them back on the company's official number to verify. Ask for their name and employee id number. Scammers will typically avoid giving personal information and create an urgency to have you stay on the line with them.
+hint_3_1,Ask them if you can call them back on the company's official number to verify. Ask for their name and employee id number. Scammers will typically
+hint_3_2, avoid giving personal information and create an urgency to have you stay on the line with them.
 enter,Enter
 tech_sup,Tech Support
 ring,Ring...... Ring......

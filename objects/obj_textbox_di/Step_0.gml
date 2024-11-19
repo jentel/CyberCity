@@ -1,3 +1,4 @@
+/// @description Conditionally moves the arrow and select keys
 /// @description Get Input
 var confirm = keyboard_check_pressed(confirm_key);
 

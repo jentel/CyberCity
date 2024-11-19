@@ -1,5 +1,45 @@
 /// @description Deal with sequences by state
 
+// when a textbox appears
+if(instance_exists(obj_textbox_di))
+{
+	var diLayer = layer_get_id("Di_UI_Layer");
+	layer_set_visible(diLayer, true);
+	
+	var mainLayer = layer_get_id("Main_UI_Layer");
+	layer_set_visible(mainLayer, false);
+	//instance_deactivate_object(obj_virtual_button);
+	//instance_deactivate_object(obj_virtual_key);
+	
+	//instance_destroy(obj_virtual_button);
+	instance_destroy(obj_virtual_key);
+	with(obj_virtual_button)
+	{
+		instance_destroy();
+	}
+	//virtual_key_delete();
+}
+else if (global.isSeqActive)
+{
+	var diLayer = layer_get_id("Di_UI_Layer");
+	layer_set_visible(diLayer, false);
+	
+	var mainLayer = layer_get_id("Main_UI_Layer");
+	layer_set_visible(mainLayer, false);
+}
+else if room == rm_gameover
+{
+	//obj_virtual_key.visible = 0;
+}
+else {
+	var diLayer = layer_get_id("Di_UI_Layer");
+	layer_set_visible(diLayer, false);
+	
+	var mainLayer = layer_get_id("Main_UI_Layer");
+	layer_set_visible(mainLayer, true);
+}
+
+
 //Control sequences
 switch (sequenceState) {
     case seqState.playing: {

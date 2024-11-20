@@ -5,7 +5,7 @@ global.playerControl = true;
 global.isSeqActive = false;
 
 global.gameOver = false;
-global.gameStart = false;
+global.gameStart = true;
 
 global.CamX = undefined;
 global.CamY = undefined;

@@ -9,6 +9,7 @@
   "name":"obj_virtual_button",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_virtual_key","path":"objects/obj_virtual_key/obj_virtual_key.yy",},"propertyId":{"name":"keycode","path":"objects/obj_virtual_key/obj_virtual_key.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"vk_enter",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_virtual_key","path":"objects/obj_virtual_key/obj_virtual_key.yy",},"propertyId":{"name":"variable_name","path":"objects/obj_virtual_key/obj_virtual_key.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"main",},
   ],
   "parent":{
     "name":"UI",

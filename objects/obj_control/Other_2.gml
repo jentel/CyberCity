@@ -7,6 +7,9 @@ global.isSeqActive = false;
 global.gameOver = false;
 global.gameStart = true;
 
+// Virtual Keyboard Info
+global.ButtonCoords = {};
+
 global.CamX = undefined;
 global.CamY = undefined;
 
